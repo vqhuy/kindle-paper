@@ -24,7 +24,7 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	k2pdfopt = "./k2pdfopt"
+	k2pdfopt = "k2pdfopt"
 }
 
 func convert(in, out string) string {
